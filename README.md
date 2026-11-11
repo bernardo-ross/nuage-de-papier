@@ -1,16 +1,16 @@
-# Nuage de Papier
+# Nuage de Papier — E-commerce
 
-Projeto de personalização e desenvolvimento visual de uma loja virtual utilizando a plataforma Nuvemshop.
+Projeto de personalização visual e desenvolvimento de interface para uma loja virtual de fotolivros personalizados, utilizando a plataforma Nuvemshop.
 
-🌐 **Site:** https://nuagedepapier.com.br/
+🌐 **Site oficial:** https://nuagedepapier.com.br/
 
 ## Sobre o projeto
 
-O projeto consiste na personalização do layout de uma loja virtual, buscando proporcionar uma experiência de navegação agradável, moderna e responsiva.
+O trabalho consistiu na personalização da experiência visual da loja, buscando transmitir a identidade da marca por meio de um layout elegante, minimalista e responsivo.
 
-Foram realizadas customizações utilizando CSS para ajustar a estrutura das páginas, tipografia, espaçamentos, cores e elementos visuais.
+Foram desenvolvidas customizações em CSS para ajustar a estrutura das páginas, elementos visuais, tipografia, espaçamentos e apresentação dos produtos.
 
-## Tecnologias utilizadas
+## Tecnologias e recursos
 
 - HTML
 - CSS3
@@ -19,22 +19,34 @@ Foram realizadas customizações utilizando CSS para ajustar a estrutura das pá
 - Design Responsivo
 - Nuvemshop
 
-## Principais implementações
+## Implementações
 
-- Personalização de layout e estrutura das páginas.
-- Ajustes de espaçamento e alinhamento.
-- Criação de elementos visuais personalizados.
-- Adaptação para dispositivos móveis.
-- Customização de tipografia e cores.
-- Melhorias na apresentação dos conteúdos.
+- Personalização da identidade visual da loja.
+- Ajustes de cabeçalho, navegação e estrutura das páginas.
+- Customização de elementos e seções.
+- Organização e alinhamento dos componentes com Flexbox.
+- Adaptação do layout para dispositivos móveis.
+- Ajustes de tipografia, cores e espaçamentos.
 
-## Responsividade
+## Visualização do projeto
 
-Foram utilizadas Media Queries para adaptar os elementos da página a diferentes tamanhos de tela, proporcionando uma melhor experiência em dispositivos móveis.
+### Página inicial
+![Página inicial](assets/homepage.png)
+
+### Vitrine de produtos
+![Página de produtos](assets/products.png)
+
+### Versão mobile
+![Visualização mobile](assets/mobile-preview.png)
+
+## Estrutura do projeto
+
+- `css/custom.css`: código CSS desenvolvido para as personalizações.
+- `assets/`: capturas de tela do projeto.
 
 ## Observação
 
-Este repositório documenta as personalizações de código realizadas no projeto. Não representa a exportação completa do tema original da Nuvemshop.
+Este repositório documenta as personalizações CSS e o resultado visual do projeto. Não contém a exportação completa do tema original da Nuvemshop.
 
 ---
 
