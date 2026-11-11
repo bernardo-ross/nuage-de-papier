@@ -1,0 +1,211 @@
+
+.template-page .container {
+	max-width: 100% !important;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+.template-page .row {
+	display: flex !important;
+	justify-content: center !important;
+	margin: 0 !important;
+}
+
+.template-page [class*="col-"] {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.secao-vfinal-nuage {
+	max-width: 1050px !important;
+	margin: 20px auto !important;
+	padding: 0 20px !important;
+	font-family: "Poppins", sans-serif !important;
+}
+
+.flex-nuage-layout {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	gap: 90px !important;
+}
+
+.coluna-foto-nuage {
+	width: 300px !important;
+}
+
+.moldura-wrapper {
+	position: relative !important;
+	width: 100% !important;
+}
+
+.moldura-fundo-bege {
+	position: absolute !important;
+	top: 18px !important;
+	left: 18px !important;
+	width: calc(100% + 18px) !important;
+	height: calc(100% + 18px) !important;
+	background: #f4f1ea !important;
+	z-index: 1 !important;
+}
+
+.coluna-foto-nuage img {
+	width: 84% !important;
+	margin-left: auto !important;
+	display: block !important;
+	position: relative !important;
+	z-index: 2 !important;
+	transform: translate(6px, 28px);
+}
+
+.legenda-nome-corina {
+	margin-top: 14px !important;
+	font-size: 11.5px !important;
+	letter-spacing: 2.5px !important;
+	color: #8a8a8a !important;
+	text-align: center !important;
+}
+
+.coluna-texto-nuage {
+	flex: 1 !important;
+	max-width: 620px !important;
+	text-align: center !important;
+}
+
+.titulo-verde-nuage {
+	background-color: #b7ccb9 !important;
+	display: block !important;
+	width: fit-content !important;
+	padding: 10px 40px !important;
+	margin: 0 auto 30px auto !important;
+}
+
+.titulo-verde-nuage h2 {
+	margin: 0 !important;
+	font-size: 13px !important;
+	letter-spacing: 3.5px !important;
+	color: #fff !important;
+	font-weight: 400 !important;
+	text-transform: uppercase !important;
+}
+
+.conteudo-paragrafos {
+	text-align: left !important;
+}
+
+.conteudo-paragrafos p {
+	font-size: 15.5px !important;
+	line-height: 1.9 !important;
+	color: #6d6d6d !important;
+	margin-bottom: 18px !important;
+	text-align: justify !important;
+}
+
+@media (max-width:768px) {
+	body, html {
+		overflow-x: hidden !important;
+	}
+	
+	.secao-vfinal-nuage {
+		max-width: 100% !important;
+		margin: 20px auto !important;
+		padding: 0 10px !important;
+		box-sizing: border-box !important;
+		font-family: "Poppins", sans-serif !important;
+	}
+	
+	.flex-nuage-layout {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		gap: 25px !important;
+		width: 100% !important;
+		box-sizing: border-box !important;
+	}
+	
+	.coluna-foto-nuage {
+		width: 100% !important;
+		max-width: 260px !important;
+		text-align: center !important;
+		box-sizing: border-box !important;
+	}
+	
+	.moldura-wrapper {
+		position: relative !important;
+		width: 100% !important;
+		padding: 12px !important;
+		box-sizing: border-box !important;
+	}
+	
+	.moldura-fundo-bege {
+		position: absolute !important;
+		top: 0 !important;
+		left: 0 !important;
+		width: 100% !important;
+		height: 100% !important;
+		background-color: #f4f1ea !important;
+		z-index: 1 !important;
+	}
+	
+	.coluna-foto-nuage img {
+		display: block !important;
+		width: 75% !important;
+		margin: 0 auto !important;
+		position: relative !important;
+		z-index: 2 !important;
+		transform: translateY(-1px) !important;
+	}
+	
+	.legenda-nome-corina {
+		margin-top: 18px !important;
+		font-size: 14px !important;
+		letter-spacing: 2px !important;
+		color: #8a8a8a !important;
+		text-align: center !important;
+	}
+	
+	.coluna-texto-nuage {
+		flex: 1 !important;
+		max-width: 90% !important;
+		text-align: left !important;
+		box-sizing: border-box !important;
+	}
+	
+	.titulo-verde-nuage {
+		display: block !important;
+		width: fit-content !important;
+		padding: 10px 25px !important;
+		margin: 0 auto 15px auto !important;
+		background-color: #b7ccb9 !important;
+		text-align: center !important;
+	}
+	
+	.titulo-verde-nuage h2 {
+		margin: 0 !important;
+		font-size: 13px !important;
+		letter-spacing: 3.5px !important;
+		color: #fff !important;
+		font-weight: 400 !important;
+		text-transform: uppercase !important;
+	}
+	
+	.conteudo-paragrafos {
+		text-align: left !important;
+	}
+	
+	.conteudo-paragrafos p {
+		font-size: 15px !important;
+		line-height: 1.8 !important;
+		color: #6d6d6d !important;
+		margin-bottom: 18px !important;
+		text-align: justify !important;
+	}
+}
+
+[class*="breadcrumb"] {
+	display: none !important;
+}
+
+nav[aria-label="breadcrumb"] {
+	display: none !important;
+}
